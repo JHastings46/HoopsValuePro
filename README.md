@@ -11,7 +11,7 @@ NBA free agency involves significant financial decisions based on player perform
 
 ## Data Sources
 - **Basketball Reference:** Advanced player statistics for the 2022-2026 NBA seasons (`.html` scraping).
-- **Spotrac (simulated):** NBA free agent contract data, including actual contract values for 2024-2026 free agent classes (`.xlsx` file).
+- **Spotrac:** NBA free agent contract data, including actual contract values for 2024-2026 free agent classes (`.xlsx` file).
 
 ## Methodology
 
@@ -59,7 +59,7 @@ Ridge Regression was selected as the primary model due to its strong balance of:
 **For Future Production Prediction (Model 2):**
 Ridge Regression demonstrated superior performance compared to simple baselines, effectively predicting next-season VORP with a validation Spearman correlation of 0.428.
 
-**Overall Takeaway:** The models, particularly Ridge, effectively capture significant variance in player valuations and future production. The unexplained variance is attributed to complex, non-quantifiable factors in NBA free agency (e.g., restricted FA leverage, team needs, agent negotiations).
+**Overall Takeaway:** GAM showed the strongest training fit but the weakest test performance (test R² 0.267 vs. Ridge's 0.432), indicating overfitting on a limited sample — a key reason Ridge was chosen over more flexible alternatives.
 
 ### 6. Final Output: 2026 NBA Free Agent Value Board
 Two models are combined to create a comprehensive value board for the 2026 free agent class:
@@ -83,3 +83,6 @@ All essential models (Ridge for AAV and VORP) and preprocessing objects (scalers
 - Explore more advanced feature engineering, including player archetypes or stylistic metrics.
 - Implement more sophisticated ensemble models or deep learning approaches.
 - Integrate sentiment analysis from news or social media for qualitative factors.
+
+## Live Demo
+[HoopsValuePro — 2026 NBA Free-Agent Value Board](https://your-app-url.streamlit.app)
