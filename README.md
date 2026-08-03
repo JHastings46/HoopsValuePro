@@ -80,8 +80,8 @@ Ridge Regression selected after comparison against Gradient Boosting.
 | Model              | Test R²  | MAE   | Spearman |
 |--------------------|----------|-------|----------|
 | Ridge              | 0.109    | 0.433 | 0.428    |
-| Naive Mean Baseline| -0.004   | —     | —        |
-| Recency Baseline   | -0.153   | —     | —        |
+| Naive Mean Baseline| -0.004   | 0.451 | 0.670    |
+| Recency Baseline   | -0.153   | 0.491 | 0.625    |
 
 While the production model explains limited variance in absolute terms, it 
 outperforms both a naive mean baseline and a single-season recency baseline, 
