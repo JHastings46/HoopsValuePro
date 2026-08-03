@@ -1,5 +1,3 @@
-# NBA Free Agent Value Board: Predicting Contract Efficiency and Future Production
-
 # HoopsValuePro: NBA Free Agent Contract & Production Modeling
 
 ## Overview
