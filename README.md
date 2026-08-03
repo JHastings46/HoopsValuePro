@@ -84,5 +84,6 @@ All essential models (Ridge for AAV and VORP) and preprocessing objects (scalers
 - Implement more sophisticated ensemble models or deep learning approaches.
 - Integrate sentiment analysis from news or social media for qualitative factors.
 
+
 ## Live Demo
-[HoopsValuePro — 2026 NBA Free-Agent Value Board](https://your-app-url.streamlit.app)
+[HoopsValuePro — 2026 NBA Free-Agent Value Board](https://hoopsvaluepro-rn664qf9eyfcjykp8ufzzx.streamlit.app/)
