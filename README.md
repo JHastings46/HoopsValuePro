@@ -1,14 +1,15 @@
 # HoopsValuePro: NBA Free Agent Contract & Production Modeling
 
+**Author:** Joel Hastings  
+## Live Demo
+[HoopsValuePro — 2026 NBA Free-Agent Value Board](https://hoopsvaluepro-rn664qf9eyfcjykp8ufzzx.streamlit.app/)
+
 ## Overview
 This project builds a dual-model decision support framework for evaluating NBA 
 free agent signings. It predicts both what a player will get paid (as a 
 percentage of the salary cap) and how much he will actually produce (VORP), 
 then combines both outputs to flag players who represent surplus value or 
 overpayment risk. Built specifically around the 2026 NBA free agency class.
-
-## Live Demo
-[HoopsValuePro — 2026 NBA Free-Agent Value Board](https://hoopsvaluepro-rn664qf9eyfcjykp8ufzzx.streamlit.app/)
 
 ## Motivation
 NBA free agency involves significant financial decisions made under uncertainty. 
