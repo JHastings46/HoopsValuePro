@@ -3,6 +3,12 @@ import pandas as pd
 
 st.set_page_config(page_title="2026 NBA Free-Agent Value Board", layout="wide")
 
+with st.sidebar:
+    st.markdown("### Built by Joel Hastings")
+    st.markdown("[GitHub](https://github.com/JHastings46)")
+    st.markdown("[LinkedIn](https://linkedin.com/in/joel-hastings-976bb855)")
+    st.markdown("[Tableau Public](https://public.tableau.com/app/profile/joel.hastings)")
+
 @st.cache_data
 def load_board():
     return pd.read_csv("2026_free_agent_value_board_full.csv")
@@ -10,6 +16,7 @@ def load_board():
 df = load_board()
 
 st.title("2026 NBA Free-Agent Value Board")
+st.markdown("A two-model system predicting free-agent market cost and future production, built to identify contracts the market may be over- or under-valuing.")
 st.caption("Model 1 predicts market cost (AAV % of cap). Model 2 predicts future production (VORP). Cap Efficiency = predicted future VORP per 1% of actual cap spent.")
 
 col1, col2, col3 = st.columns(3)
